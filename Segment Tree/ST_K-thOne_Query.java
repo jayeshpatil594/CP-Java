@@ -88,7 +88,7 @@ public class Main {
                 return start;
             }
             int mid = start + (end - start) / 2;
-            int cur = tree[2 * node + 1];
+            int cur = tree[2 * node + 1];     //no of 1's in the left subtree
             if(k < cur){
                 return find(k, 2 * node + 1, start, mid);
             } else{
