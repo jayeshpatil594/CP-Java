@@ -92,7 +92,7 @@ public class Main {
             if(k < cur){
                 return find(k, 2 * node + 1, start, mid);
             } else{
-                return find(k - cur, 2 * node + 2, mid + 1, end);
+                return find(k - cur, 2 * node + 2, mid + 1, end);    //k - cur => skip all 1's in left subtree
             }
         }
 
