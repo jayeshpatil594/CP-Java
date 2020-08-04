@@ -1,6 +1,8 @@
 import java.io.*;
 import java.util.*;
 
+//Time Complexity : O(n + m)
+
 public class BFS {
     static ArrayList<Integer> adj[];   //graph
     static Queue<Integer> queue;
