@@ -5,7 +5,7 @@ import java.io.*;
    Assuming weights of all edges are non-negative.
 */
 
-// Time Complexity : O(n ^ 2)
+// Time Complexity : O(n ^ 2 + m)
 
 public class Dijkstra {
     static ArrayList<Pair> adj[];
