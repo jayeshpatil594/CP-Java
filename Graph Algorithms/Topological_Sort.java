@@ -4,6 +4,9 @@ import java.util.*;
 /*
   Assuming that the graph is acyclic.
 */
+
+//Timr Complexity: O(n + m)
+
 public class TopoSort {
     static ArrayList<Integer> adj[];   //graph
     static Stack<Integer> stack = new Stack<>();    //store the order
